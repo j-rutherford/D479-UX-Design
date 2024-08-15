@@ -1,0 +1,79 @@
+/* Custom styles for Taniti Tourism website */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Quicksand:wght@700&display=swap");
+
+/* General Styles */
+body {
+  background-color: #fff5e1;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Hero Section */
+.hero {
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #ffa500; /* Sunset Orange */
+  background-color: RGBA(
+    0,
+    0,
+    0,
+    0.6
+  ); /* A darker shade of Sunset Orange with 80% opacity */
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* Section Headings */
+h2 {
+  font-family: "Poppins", sans-serif; /* Elegant serif font */
+  font-weight: 700; /* Bold */
+  color: #ff8c00; /* Dark Orange font color */
+  position: relative; /* Ensure the ::after is positioned relative to the H2 */
+  margin-bottom: 20px; /* Space below the header */
+  text-align: center;
+}
+
+.intro h2::after {
+  content: "";
+  display: block;
+  width: 80%; /* 80% of the container width */
+  height: 5px;
+  background-image: linear-gradient(
+    to right,
+    transparent,
+    #00bfff
+  ); /* Gradient from transparent to Deep Sky Blue */
+  position: absolute;
+  bottom: -10px; /* Position it slightly below the H2 */
+  right: 0; /* Align the gradient to the right */
+}
+
+h3 {
+  font-family: "Raleway", sans-serif; /* Modern sans-serif font */
+  font-weight: 500; /* Medium weight */
+  color: #696969; /* Medium Gray */
+  margin-bottom: 15px;
+}
+.bg-secondary h3 {
+  color: white;
+}
+
+/* Introduction & Attractions */
+.intro,
+.attractions {
+  margin-top: 30px;
+}
+
+.accordion{
+    margin-bottom: 25px;
+}
