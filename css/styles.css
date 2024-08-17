@@ -6,7 +6,12 @@ body {
   background-color: #fff5e1;
   font-family: "Roboto", sans-serif;
 }
-
+p {
+  font-size: 20px;
+}
+nav {
+  border-bottom: 2px solid #00bfff
+}
 /* Hero Section */
 .hero {
   background-size: cover;
@@ -23,12 +28,7 @@ body {
   font-size: 3rem;
   font-weight: bold;
   color: #ffa500; /* Sunset Orange */
-  background-color: RGBA(
-    0,
-    0,
-    0,
-    0.6
-  ); /* A darker shade of Sunset Orange with 80% opacity */
+  background-color: RGBA(0, 0, 0, 0.6);
   padding: 20px;
   border-radius: 5px;
 }
@@ -74,6 +74,9 @@ h3 {
   margin-top: 30px;
 }
 
-.accordion{
-    margin-bottom: 25px;
+.accordion {
+  margin-bottom: 25px;
+}
+img {
+  max-height: 400px;
 }
